@@ -20,7 +20,7 @@ docker run -p 4567:4567 -v /absolute/path/for/your/doc/source:/app/slate/source 
 or if you don't have any documentation.
 
 ```shell
-git clone https://github.com/pedrocesar-ti/slate-docker.git
+git clone --recursive https://github.com/pedrocesar-ti/slate-docker.git
 cd slate-docker
 docker run -p 4567:4567 -v $(pwd)/slate/source:/app/slate/source -d pedrocesarti/slate-docker
 ```
