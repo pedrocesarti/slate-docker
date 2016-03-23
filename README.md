@@ -15,16 +15,15 @@ Technologies
 Running the Container
 ------------------------------
 ```shell
-
+docker run -p 4567:4567 -v /absolute/path/for/your/doc/source:/app/slate/source -d pedrocesarti/slate-docker
 ```
-
+or if you don't have any documentation.
 
 ```shell
 git clone https://github.com/pedrocesar-ti/slate-docker.git
 cd slate-docker
-docker run -p 4567:4567 -v $(pwd)/slate/source:/app/slate/source -d 
+docker run -p 4567:4567 -v $(pwd)/slate/source:/app/slate/source -d pedrocesarti/slate-docker
 ```
-
 
 
 Repositories used to 
