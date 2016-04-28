@@ -3,4 +3,4 @@ build: Dockerfile
 download:
 	git clone https://your-slate-source.git ../your-slate-origin
 run:
-	docker run -p 4567:4567 -v $(pwd)/../your-slate-origin:/app/slate/source -d pedrocesarti/slate-docker
+	docker run --name slate -p 4567:4567 -v $(pwd)/../your-slate-origin:/app/slate/source -d pedrocesarti/slate-docker
