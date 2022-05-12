@@ -1,3 +1,7 @@
+:rotating_light: This project is outdated/abandoned/archived and will not be updated anymore. :rotating_light:
+
+-------------
+
 # slate-docker
 Repository to create a container with Docker to serve a API documentation using [Slate](https://github.com/tripit/slate). The main idea here is you keep your documentation in a **private repository** and clone inside this project to run you own documentation with two commands. 
 
